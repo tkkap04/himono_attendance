@@ -1,6 +1,8 @@
 # himono_attendance
 # アプリケーション名
 Atte
+![Atte](https://github.com/tkkap04/himono_attendance/blob/main/atte.png)
+
 
 ##作成した目的
 毎日の勤怠状況を記録して人事評価に用いるため
