@@ -4,6 +4,7 @@ Atte
 ![Stamp](https://github.com/tkkap04/himono_attendance/blob/main/stamp.png)
 
 
+
 ##作成した目的
 毎日の勤怠状況を記録して人事評価に用いるため
 
@@ -25,9 +26,11 @@ http://13.115.101.13
 - PHP 7.4.9
 
 ##テーブル設計
+
 ![Table](https://github.com/tkkap04/himono_attendance/blob/main/table.png)
 
 ##ER図
+
 ![Atte](https://github.com/tkkap04/himono_attendance/blob/main/atte.png)
 
 ## 環境構築
