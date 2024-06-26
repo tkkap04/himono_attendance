@@ -1,0 +1,95 @@
+/* タイトル */
+.page-title {
+    margin: 0;
+}
+
+.page-title__text {
+    margin: 0;
+}
+
+.page-title {
+    padding: 4vw 0 2vw;
+}
+
+.page-title__text {
+    font-size: 1.5vw;
+    font-weight: 600;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+/* ヘッダーナビゲーション */
+.header__nav {
+    margin: auto 2vw auto auto;
+    width: 25%;
+}
+
+.header__nav-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header__nav-list__item-name {
+    text-decoration: none;
+    color: #000;
+    font-size: 1vw;
+    font-weight: bold;
+}
+
+.header__nav-list__item-submit {
+    background-color: transparent;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 0;
+    font-size: 1vw;
+    font-weight: bold;
+}
+
+.page-title{
+    display: flex;
+    justify-content: space-around;
+}
+
+.page-title__text{
+    display: block;
+    margin-left: 30vw;
+    font-size: 1.5vw;
+}
+
+.page-title__month-navigation{
+    margin-right: 30vw;
+    font-size: 1.2vw;
+}
+
+.page-title__month-button{
+    text-decoration: none;
+    color: rgba(21, 126, 212, 0.993);
+}
+
+.page-title__arrow {
+    color: inherit;
+    padding: 0 1vw;
+}
+
+.page-title__text a {
+    text-decoration: none;
+}
+
+.atte__table {
+    margin: 0 auto;
+}
+
+.atte__row {
+    border-top: #000 solid 1px;
+    font-size: 1vw;
+}
+
+.atte__label {
+    padding: 1.5vw 4vw;
+}
+
+.atte__data {
+    padding: 1.5vw 0;
+}

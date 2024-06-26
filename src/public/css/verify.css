@@ -1,0 +1,30 @@
+/* タイトル */
+.page-title {
+    margin: 0;
+}
+
+.page-title__text {
+    margin: 0;
+}
+
+.page-title {
+    padding: 4vw 0 2vw;
+}
+
+.page-title__text {
+    font-size: 1.5vw;
+    font-weight: 600;
+}
+
+
+.input-box__item-submit {
+    height: 3vw;
+    width: 10vw;
+    font-size: 1vw;
+    border-radius: 5px;
+    background-color: rgba(37, 51, 250, 0.993);
+    color: #fff;
+    margin: 1.5vw 0;
+    border: none;
+    cursor: pointer;
+}

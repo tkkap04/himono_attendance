@@ -1,0 +1,77 @@
+/* タイトル */
+.page-title{
+    margin: 0;
+}
+
+.page-title__text {
+    margin: 0;
+}
+
+.page-title{
+    padding: 4vw 0 2vw;
+}
+
+.page-title__text{
+    font-size: 1.5vw;
+    font-weight: 600;
+}
+
+/* 入力欄 */
+.input-box{
+    padding-bottom: 11vw;
+}
+
+.input-box__item{
+    margin:0 auto ;
+    width: 27vw;
+}
+
+.input-box__item-input{
+    height: 3vw;
+    width: 27vw;
+    font-size: 1vw;
+    border-radius: 5px;
+    border: grey 1px solid;
+    /* フォーカス時の枠線を無くす */
+    outline: none;
+    /* inputタグ内の背景色 */
+    background-color: rgb(245, 245, 245);
+}
+
+/* オートコンプリート後の色 */
+.input-box__item-input:-webkit-autofill {
+    box-shadow: 0 0 0px 1000px rgb(245, 245, 245) inset;
+}
+
+/* エラーメッセージ */
+.input-box__error-message{
+    color: red;
+    margin: 0.2vw 0;
+    text-align: left;
+}
+
+/* 会員登録ボタン */
+.input-box__item-submit{
+    height: 3vw;
+    width: 27vw;
+    font-size: 1vw;
+    border-radius: 5px;
+    background-color: rgba(37, 51, 250, 0.993);
+    color: #fff;
+    margin-bottom: 1.5vw;
+    border: none;
+    cursor: pointer;
+}
+
+.input-box__other p{
+    color: grey;
+    margin: 0;
+    font-size: 1vw;
+}
+
+.input-box__other a {
+    color: rgba(37, 51, 250, 0.993);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1vw;
+}

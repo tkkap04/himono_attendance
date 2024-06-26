@@ -1,0 +1,110 @@
+/* タイトル */
+.page-title {
+    margin: 0;
+}
+
+.page-title__text {
+    margin: 0;
+}
+
+.page-title {
+    padding: 4vw 0 2vw;
+}
+
+.page-title__text {
+    font-size: 1.5vw;
+    font-weight: 600;
+}
+
+/* ヘッダーナビゲーション */
+.header__nav{
+    margin: auto 2vw auto auto;
+    width: 25%;
+}
+
+.header__nav-list{
+    display: flex;
+    justify-content: space-around;
+}
+
+.header__nav-list__item-name{
+    text-decoration: none;
+    color: #000;
+    font-size: 1vw;
+    font-weight: bold;
+}
+
+.header__nav-list__item-submit {
+    background-color: transparent;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 0;
+    font-size: 1vw;
+    font-weight: bold;
+}
+
+/* ボタン */
+.stamp-content{
+    display: flex;
+    justify-content: center;
+}
+
+.stamp-box{
+    display: grid;
+    grid-template-rows: 10vw 2vw 10vw 15vw;
+    grid-template-columns: 20vw 2vw 20vw;
+}
+
+.stamp-box__form__start-work{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.stamp-box__form__end-work {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.stamp-box__form__start-rest {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.stamp-box__form__end-rest {
+    grid-column: 3/4;
+    grid-row: 3/4;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.stamp-box__item-text{
+    background-color: transparent;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 0;
+    font-size: 1.5vw;
+    font-weight: bold;
+    width: 100%;
+    height: 100%;
+    display: block;
+}

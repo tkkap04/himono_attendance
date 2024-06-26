@@ -1,0 +1,52 @@
+.header{
+    margin-left: 2vw;
+    font-size: 1vw;
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content{
+    text-align: center;
+    background-color: rgb(245, 245, 245);
+    height: 45vw;
+}
+
+footer{
+    text-align: center;
+    padding: 0.5vw 0 0.5vw;
+    font-size: 0.9vw;
+}
+
+/* ページネーション */
+.pagination {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding-bottom: 3vw;
+}
+
+.pagination li:not(.active) {
+    border: 1px solid #E0DFDE;
+    padding: 4px 12px;
+}
+
+.pagination li:not(:last-child) {
+    border-right: none;
+}
+
+.pagination a {
+    color: rgba(21, 126, 212, 0.993);
+    text-decoration: none;
+}
+
+.pagination__link {
+    text-decoration: none;
+}
+
+.active {
+    padding: 4px 12px;
+    border: 1px solid rgba(21, 126, 212, 0.993);
+    background-color: rgba(21, 126, 212, 0.993);
+    color: #FFF;
+}
